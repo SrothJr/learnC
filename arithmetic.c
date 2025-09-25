@@ -35,5 +35,5 @@ int main(){
 
     printf("New a: %d\nNew b: %d\n\n", a, b);
 
-
+    return 0;
 }
