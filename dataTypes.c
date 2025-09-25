@@ -82,11 +82,30 @@ int main(){
     printf("%d \n", withNum); // output 1 for numbers higher than 0
 
     if(isOnline) {
-        printf("You're online");
+        printf("You're online\n\n\n\n");
     } else{
-        printf("You're offline");
+        printf("You're offline\n\n\n\n");
     }
 
+    // Home work
 
+    int items = 65;
+    float pricePerItem = 9.99;
+    double total;
+
+    char class = 'A';
+    char customerName[] = "Nazim";
+    bool valid = true;
+
+    if(valid){
+        total = items * pricePerItem;
+        if (class == 'A'){
+            total = total * 0.9;
+        }
+        printf("Dear %s, your total is $%.2lf \n", customerName, total);
+
+    } else{
+        printf("Transaction is not valid");
+    }
     return 0;
 }
