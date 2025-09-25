@@ -3,8 +3,11 @@
 
 
 int main(){
-    // %d (decimal) for integers
+    // %d (decimal) for integers and booleans
     // %f (float) for floats
+    // %lf for doubles
+    // %c for char
+    // %s for strings
 
     // Integer type
     /*
